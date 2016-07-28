@@ -18,3 +18,5 @@ phonecatApp.config(['$routeProvider',
         redirectTo: '/phones'
       });
   }]);
+  
+  angular.module('phonecatApp', ['ngRoute','phonecatControllers','phonecatFilters']).
